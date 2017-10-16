@@ -1,0 +1,13 @@
+
+#Install without agt-get 
+  you need to perform all other setps and when doing 'apt-get install ...' comes replace it 'sudo install --print-uris ....' .
+  this command will give you urls to download .deb pkgs ,which can download anywhere and transfer them to your m/c where you can instal them using 
+  'dpkg -i <.deb file>'
+
+ 1. get .deb file 
+   apt-get install --print-uris <unzip|wget|etc>
+ 
+2. install from .deb 
+   dpkg -i unzip_6.0-9ubuntu1.5_amd64.deb 
+   
+   
